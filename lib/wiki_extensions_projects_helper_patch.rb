@@ -18,7 +18,7 @@
 require_dependency 'projects_helper'
 
 module ProjectsHelperMethodsWikiExtensions
-  def project_settings_tabs
+  def project_settings_tabs_with_checklists
     tabs = super
     action = {:name => 'wiki_extensions', 
       :controller => 'wiki_extensions_settings', 
